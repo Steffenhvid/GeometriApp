@@ -53,5 +53,19 @@ namespace GeometriApp.Models
             Coordinate1 = coordinate1;
             Coordinate2 = coordinate2;
         }
+
+        public bool LineContains(Coordinate coordinate)
+        {
+            if (coordinate.Equals(Coordinate1) || coordinate.Equals(Coordinate2))
+                return true;
+
+            decimal slope = (coordinate.Y - Coordinate1.Y) / (coordinate.X - Coordinate1.X);
+
+            if (Slope != slope)
+                return false;
+
+            return Math.Min(Coordinate1.X, Coordinate2.X) < coordinate.X
+                && coordinate.X < Math.Max(Coordinate1.X, Coordinate2.X);
+        }
     }
 }
