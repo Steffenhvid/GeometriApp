@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometriApp", "GeometriApp\GeometriApp.csproj", "{F48D67FD-6E52-4558-8538-E4767DE29234}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometriApp.Tests", "GeometriApp.Tests\GeometriApp.Tests.csproj", "{D1620952-0C93-4789-9F2F-F761AA0B3DC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F48D67FD-6E52-4558-8538-E4767DE29234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F48D67FD-6E52-4558-8538-E4767DE29234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F48D67FD-6E52-4558-8538-E4767DE29234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F48D67FD-6E52-4558-8538-E4767DE29234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1620952-0C93-4789-9F2F-F761AA0B3DC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1620952-0C93-4789-9F2F-F761AA0B3DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1620952-0C93-4789-9F2F-F761AA0B3DC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1620952-0C93-4789-9F2F-F761AA0B3DC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7E0F099-A428-4ED2-B94C-306ACF34971F}
+	EndGlobalSection
+EndGlobal
